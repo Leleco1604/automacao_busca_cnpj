@@ -32,8 +32,3 @@ while True:
         sleep(5)
         print('Passo 3 feito')
         sleep(5)
-
-        
-
-
-    
