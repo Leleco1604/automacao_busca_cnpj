@@ -12,4 +12,10 @@ tela_login = [
     [sg.Button('Enviar')]
 ]
 
-#
+# Criar a janela 
+janela = sg.Window('Login', layout = tela_login)
+
+#Ler os eventos 
+while True:
+    event,values = janela.read()
+    
